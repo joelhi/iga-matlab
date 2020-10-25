@@ -3,7 +3,7 @@ MATLAB functions for Isogeometric Analysis
 
 
 Kirchhoff-Love Shells: 
-![](https://github.com/joelhi/IGA_MATLAB/blob/master/KL%20Shell/Resources/testSurface.gif | width=100)
+![](https://github.com/joelhi/IGA_MATLAB/blob/master/KL%20Shell/Resources/testSurface.gif)
 
 
 E-B Beams. Matrix and Dynamic Relaxation.
