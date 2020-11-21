@@ -1,4 +1,4 @@
-# IGA_MATLAB
+# iga-matlab
 MATLAB functions for Isogeometric Analysis
 
 
