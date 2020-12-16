@@ -228,14 +228,11 @@ end
                         
                 Bm(:,id) = [Bm1' Bm2' Bm3'];             
 
-                BI1_alt = -dR2dxi(k)*da3 + 1/norma*(dRIdx*xda11da2 + dRIdy*xda1da11 + ...
-                              dotda3da11*(dRIdx*xda2da3 + dRIdy*xda3da3)); 
+                BI1_alt = -dR2dxi(k)*da3 + 1/norma*(dRIdx*xda11da2 + dRIdy*xda1da11 + dotda3da11*(dRIdx*xda2da3 + dRIdy*xda3da3)); 
 
-                BI2_alt = -dR2det(k)*da3 + 1/norma*(dRIdx*xda22da2 + dRIdy*xda1da22 + ...
-                              dotda3da22*(dRIdx*xda2da3 + dRIdy*xda3da3)); 
+                BI2_alt = -dR2det(k)*da3 + 1/norma*(dRIdx*xda22da2 + dRIdy*xda1da22 + dotda3da22*(dRIdx*xda2da3 + dRIdy*xda3da3)); 
 
-                BI3_alt = -dR2dxe(k)*da3 + 1/norma*(dRIdx*xda12da2 + dRIdy*xda1da12 + ...
-                              dotda3da12*(dRIdx*xda2da3 + dRIdy*xda3da3)); 
+                BI3_alt = -dR2dxe(k)*da3 + 1/norma*(dRIdx*xda12da2 + dRIdy*xda1da12 + dotda3da12*(dRIdx*xda2da3 + dRIdy*xda3da3)); 
 
                           
                 B1_alt =   [BI1_alt(1); BI2_alt(1); 2*BI3_alt(1)];
@@ -291,7 +288,7 @@ end
             
             KNL_m = KNL_m + (S_n(1)*Bm11+S_n(2)*Bm22+S_n(3)*Bm21)  * J1 * J2 * w12;
             KNL_m_c = KNL_m_c + (S_n_c(1)*Bm11_c+S_n_c(2)*Bm22_c+S_n_c(3)*Bm21_c)  * J1 * J2 * w12;
-            KNL_b = KNL_b;% + benStiff * Bb' * C * kappa'  *  J1 * J2 * w1 * w2;
+            KNL_b = KNL_b + benStiff * Bb' * C * kappa'  *  J1 * J2 * w1 * w2;
             
         end
         
