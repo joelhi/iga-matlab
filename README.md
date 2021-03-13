@@ -30,14 +30,13 @@ As a design feature, allows the input of an independent thickness parameterizati
 
 ![](https://github.com/joelhi/IGA_MATLAB/blob/master/KL%20Shell/Resources/Surface_e11.gif)
 
+***
 
 - **Euler-Bernoulli (EB) Beams**
 
 As a first step, prior to the shell implementation, and simplified version was made, as a proving ground. This was derived in a similar fashion to the shell, but for a 1-dimensiona object in 2-dimensional space. Effectively making it an Euler-Bernoulli beam (E-B).
 
 This implementation was made as a test, to try different solution schemes etc. and is probably not the best IGA implementation of an E-B beam.
-
-***
 
 Below are two examples; the first is a displacement controlled solution to a simple elastica curve, and the second is a dynamic relaxation solution.
 
