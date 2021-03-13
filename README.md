@@ -1,3 +1,4 @@
+![NURBS_vs_MESH](https://user-images.githubusercontent.com/62885093/111032357-ac92c400-8403-11eb-98f0-529020a27bc6.jpg)
 
 # iga-matlab
 
@@ -18,6 +19,8 @@ It builds upon the work done by S. Almstedt and P. Safari Hesari in the their [t
 ### What is IGA?
 
 *Nurbs geometry vs a polygonal mesh.*
+
+![NURBS_vs_MESH](https://user-images.githubusercontent.com/62885093/111032366-b5839580-8403-11eb-9d0d-7fef16fa37f3.jpg)
 
 ***
 
