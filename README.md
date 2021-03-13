@@ -28,7 +28,7 @@ This repository contains a single patch implementation.
 
 As a design feature, allows the input of an independent thickness parameterization, which can be used to manipulate
 
-![](https://github.com/joelhi/IGA_MATLAB/blob/master/KL%20Shell/Resources/Surface_e11.gif)
+![](https://github.com/joelhi/iga-matlab/blob/master/KL%20Shell/Resources/testSurface.gif)
 
 - **Euler-Bernoulli (EB) Beams**
 
