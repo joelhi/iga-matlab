@@ -48,3 +48,12 @@ Below are two examples; the first is a displacement controlled solution to a sim
 ***
 
 ### General Disclaimer
+
+The implementation does have some issues, so should be used with caution.
+
+Some examples are:
+
+- **Membrane locking for KL shells** *need a very high degree (>10) for the locking not to be substantial*
+- **Beam implementation not verified** *Sometimes looks to behave in a too stiff fashion, however, buckling load corresponds well to analytical solution.*
+
+But if you are interested in IGA, this repo can serve as a good point of entry.
