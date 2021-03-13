@@ -59,12 +59,10 @@ function [B] = computeCouplingConstraints(u,v,dof,n,m,p,q,Xi1,Xi2,Eta1,Eta2,inde
       end
       
       
-      [R1, ~, ~, ~, ~, ~] = NURBS2DBasis2ndDers(...
-                                [u(1),v(1)], p(1), q(1), Xi1,Eta1, weights1);
+      [R1, ~, ~, ~, ~, ~] = NURBS2DBasis2ndDers([u(1),v(1)], p(1), q(1), Xi1,Eta1, weights1);
       
                             
-      [R2, ~, ~, ~, ~, ~] = NURBS2DBasis2ndDers(...
-                                [u(2),v(2)], p(2), q(2), Xi2,Eta2, weights2);
+      [R2, ~, ~, ~, ~, ~] = NURBS2DBasis2ndDers([u(2),v(2)], p(2), q(2), Xi2,Eta2, weights2);
       B(currentDofs1) = B(currentDofs1) + R1';
       B(currentDofs2) = B(currentDofs2)-R2';
       
